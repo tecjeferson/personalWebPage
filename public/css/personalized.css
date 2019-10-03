@@ -1,14 +1,21 @@
-#icons{
-    font-size: 18px;
-    margin-bottom:-12px;;
-    margin-top: 5px;
-    margin-right: -12px;
-    padding: 0;
-    color: rgb(94, 91, 91);
-}
-h1, a{
+
+h1{
     color: rgb(253, 227, 255);
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+a{
+    color: rgb(253, 227, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    transition: 0.5s;
+     
+    text-decoration: none;
 }
 body{
     background:
