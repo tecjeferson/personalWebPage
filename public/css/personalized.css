@@ -1,0 +1,21 @@
+#icons{
+    font-size: 18px;
+    margin-bottom:-12px;;
+    margin-top: 5px;
+    margin-right: -12px;
+    padding: 0;
+    color: rgb(94, 91, 91);
+}
+h1{
+    color: rgb(253, 227, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+}
+body{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.301),rgba(115, 1, 160, 0.719)
+    ),url('../img/chicago.jpg');
+
+    background-size: cover;
+}

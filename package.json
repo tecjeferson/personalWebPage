@@ -1,0 +1,13 @@
+{
+  "name": "JefersonvRocha",
+  "version": "1",
+  "description": "temp page",
+  "main": "index.js",
+  "author": "Jeferson Rocha",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
