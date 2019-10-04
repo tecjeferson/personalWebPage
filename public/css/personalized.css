@@ -1,27 +1,116 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+}
 
-h1{
-    color: rgb(253, 227, 255);
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-}
-a{
-    color: rgb(253, 227, 255);
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-}
-a:hover{
-    color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
-    transition: 0.5s;
-     
-    text-decoration: none;
-}
 body{
     background:
     linear-gradient(
-      rgba(0, 0, 0, 0.301),rgba(115, 1, 160, 0.719)
-    ),url('../img/chicago.jpg');
+      rgba(0, 0, 0, 0.301),#002884e8
+    ),url('../img/891.jpg');
 
     background-size: cover;
+}
+li a{
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right: 5px;
+    
+}
+
+li :hover{
+    text-decoration: none;
+    color: #000;
+    background: white
+}
+#webdeveloper{
+    margin-top: 200px;
+    
+}
+#about, #contact{
+  font-size: 1.2em;
+  margin-top: 200px;
+}
+
+
+
+
+
+
+@media (min-width: 1281px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+li a  {
+   
+    border:none;
+    color: white;
+    
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+li a  {
+   
+    border:none;
+    color: white;
+    
+}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+li a  {
+   
+    border:none;
+    color: white;
+    
+}
+
+  
 }

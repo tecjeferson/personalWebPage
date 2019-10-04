@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* #top {
+    position: absolute;
+} */
+
+.top {
+  background-color: #000;
+}
+nav {
+  display: inline;
+}
+nav ul li {
+  display: inline;
+}
+ul li a {
+  padding: 10px;
+}
+a:link {
+  text-decoration: none;
+}
+img {
+  width: 100px;
+  margin-top: -45px;
+}
+
+.linha-vertical {
+  border-right: 10px solid rgb(43, 224, 88);
+  height: 100%;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.year {
+  color: rgb(71, 199, 250);
+}
+
+ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+ul li a:hover {
+  color: rgb(43, 224, 88);
+
+  transition: 1500ms;
+}
+
+/* #itens {
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+#itens:hover {
+  box-shadow: 15px 15px 15px 15px gray;
+  transition: 1000ms;
+} */
+
+footer {
+  background-color: #000;
+  height: 100px;
+}

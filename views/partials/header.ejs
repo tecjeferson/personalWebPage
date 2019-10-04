@@ -2,35 +2,49 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/clouds.css">
+        <link rel="stylesheet" type="text/css" href="../css/reset.css">
         <link rel="stylesheet" type="text/css" href="../css/personalized.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     </head>
 
     <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-trans navbar-inverse">
+            <a class="navbar-brand ml-5" href="#">
+                <img src="../img/profile2.jpg" class="rounded-circle animated fadeIn delay-1s" height="60">
 
-        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
 
 
-                <a class="navbar-brand" href="#">DoIT - Just do it!</a>
 
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
+            </a>
+
+            <button class="navbar-toggler  mr-5" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end mr-5 text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="/">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/task/add">Add Task</a>
+                        <a class="nav-link scroll" href="/about">About</a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="/curriculo">Curriculum</a>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/users/register">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/users/login">Login</a>
+                        <a class="nav-link scroll" href="/contact" id="navbarDropdown">Contato</a>
                     </li>
                 </ul>
-                </div>
-        </nav> -->
+            </div>
+        </nav>
