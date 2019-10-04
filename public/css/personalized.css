@@ -7,8 +7,10 @@ body{
     linear-gradient(
       rgba(0, 0, 0, 0.301),#002884e8
     ),url('../img/891.jpg');
-
     background-size: cover;
+}
+.img-profile{
+    border: 1px solid white;
 }
 li a{
     color: white;
@@ -106,10 +108,14 @@ li a  {
 @media (min-width: 320px) and (max-width: 480px) {
 
 li a  {
-   
+  
     border:none;
     color: white;
-    
+    text-transform: uppercase;
+
+}
+nav{
+    background-color:#010d2952;
 }
 
   
