@@ -9,6 +9,22 @@ body{
     ),url('../img/891.jpg');
     background-size: cover;
 }
+.logo-full{
+  margin-top:10px;
+}
+.logo-name h4{
+/* margin-bottom:-10px; */
+text-align: center;
+color:white;
+width: 80%;
+border-bottom: 1px solid white;
+
+}
+.logo-name h5{
+
+margin-top:-9px;
+color:white;
+}
 .img-profile{
     border: 1px solid white;
 }
@@ -35,6 +51,17 @@ li :hover{
   margin-top: 200px;
 }
 
+
+.linha{
+  border-bottom: 2px solid white;
+  width: 20%;
+  transition: all 3s;
+}
+.linha-active{
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 100%;
+ 
+}
 
 
 
