@@ -7,8 +7,55 @@ body{
     linear-gradient(
       rgba(0, 0, 0, 0.301),#002884e8
     ),url('../img/891.jpg');
-
     background-size: cover;
+}
+.logo-full{
+  margin-top:10px;
+}
+.logo-name h4{
+/* margin-bottom:-10px; */
+text-align: center;
+color:white;
+width: 80%;
+border-bottom: 1px solid white;
+
+}
+.logo-name h5{
+
+margin-top:-9px;
+color:white;
+}
+.img-profile{
+    border: 1px solid white;
+}
+.v-line{
+  position: fixed;
+  margin-left:28.8%;
+  height: 600px;
+  border-left:2px solid white;
+}
+.sec-itens h1{
+  font-size: 30px;
+  color:white;
+  background-color:rgba(189, 180, 236, 0.281);
+  border-bottom: 3px solid white;
+  border-radius: 5px;
+  padding-left:7px;
+  padding-right:7px;
+  
+}
+.sec-itens h1:hover{
+  font-size: 30px;
+  color:white;
+  background-color:rgba(178, 162, 255, 0.61);
+  border-bottom: 3px solid white;
+  border-radius: 5px;
+  padding-left:7px;
+  padding-right:7px;
+  transition: 1s;
+}
+.sec-itens p{
+  color:white;
 }
 li a{
     color: white;
@@ -34,6 +81,24 @@ li :hover{
 }
 
 
+<<<<<<< HEAD
+=======
+.linha{
+  border-bottom: 2px solid white;
+  width: 20%;
+  transition: all 3s;
+}
+.linha-active{
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 100%;
+ 
+}
+
+
+
+
+
+>>>>>>> 1aa7ba108d2ffdc93824f0977fd2e0a9e06c8469
 @media (min-width: 1281px) {
     
 }
@@ -100,10 +165,14 @@ li a  {
 @media (min-width: 320px) and (max-width: 480px) {
 
 li a  {
-   
+  
     border:none;
     color: white;
-    
+    text-transform: uppercase;
+
+}
+nav{
+    background-color:#010d2952;
 }
 
   
