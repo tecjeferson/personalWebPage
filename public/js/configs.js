@@ -1,36 +1,42 @@
-// const node =  document.querySelector('.linha')
+		var options = {
+			legend: false,
+			tooltips: false,
+			elements: {
+                borderColor:'#000',
+                borderWidth:0,
+              
+			}
+		};
 
-// node.getAnimations()
+		var chart = new Chart('chart-0', {
+			type: 'pie',
+			data: {
+                labels: ['BACK-END'],
+                datasets: [{
+                    label: 'My First dataset',
+                    backgroundColor: ['#DDD', '#D02'],
+                    // borderColor: 'rgb(255, 99, 132)',
+                    data: [70,30]
+                }]
+            },
+			options: options
+		});
 
-// node.addEventListener('click', function(){
-//   this.classList.add('linha-active')
+		// eslint-disable-next-line no-unused-vars
+		function randomize() {
+			chart.data.datasets.forEach(function(dataset) {
+				dataset.data = generateData();
+			});
+			chart.update();
+		}
 
-var ctx = document.getElementById('myChart');
-var myChart = new Chart(ctx, {
-    type: 'pie',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                '#0D9',
-                '#D52',
-                '#D58',
-                '#D25',
-                '#2D4',
-                '#9D5'
-            ],
-            borderColor: [
-                'rgb(255, 99, 132, 1)',
-                'rgb(54, 162, 235, 1)',
-                'rgb(255, 206, 86, 1)',
-                'rgb(75, 192, 192, 1)',
-                'rgb(153, 102, 255, 1)',
-                'rgb(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    
-});
+	           
+		// eslint-disable-next-line no-unused-vars
+		function togglePieDoughnut() {
+			
+				chart.options.cutoutPercentage = 80;
+		
+			chart.update();
+		}
+        togglePieDoughnut()
+	
