@@ -35,17 +35,17 @@ color:white;
   border-left:2px solid white;
 }
 .sec-itens h1{
-  font-size: 30px;
+  font-size: 25px;
   color:white;
-  background-color:rgba(189, 180, 236, 0.281);
-  border-bottom: 3px solid white;
+  background-color:rgba(189, 180, 236, 0.253);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.363);
   border-radius: 5px;
   padding-left:7px;
   padding-right:7px;
   
 }
 .sec-itens h1:hover{
-  font-size: 30px;
+  font-size: 25px;
   color:white;
   background-color:rgba(178, 162, 255, 0.61);
   border-bottom: 3px solid white;
@@ -53,6 +53,7 @@ color:white;
   padding-left:7px;
   padding-right:7px;
   transition: 1s;
+  
 }
 .sec-itens p{
   color:white;
