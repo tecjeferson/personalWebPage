@@ -9,6 +9,16 @@ body{
     ),url('../img/891.jpg');
     background-size: cover;
 }
+
+.about-body{
+  background-size: cover;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.301),#002884e8
+    ),url('../img/homem-olhando.png');
+    background-size: cover;
+}
+
 .logo-full{
   margin-top:10px;
 }
@@ -25,15 +35,8 @@ border-bottom: 1px solid white;
 margin-top:-9px;
 color:white;
 }
-.img-profile{
-    border: 1px solid white;
-}
-.v-line{
-  position: fixed;
-  margin-left:28.8%;
-  height: 600px;
-  border-left:2px solid white;
-}
+
+
 .sec-itens h1{
   text-align: right;
   font-size: 25px;
@@ -45,17 +48,7 @@ color:white;
   padding-right:7px;
   
 }
-.sec-itens h1:hover{
-  font-size: 25px;
-  color:white;
-  background-color:rgba(178, 162, 255, 0.61);
-  border-bottom: 3px solid white;
-  border-radius: 5px;
-  padding-left:7px;
-  padding-right:7px;
-  transition: 1s;
-  
-}
+
 .sec-itens p{
   color:white;
 }
@@ -77,30 +70,47 @@ li :hover{
     margin-top: 200px;
     
 }
-#about, #contact{
-  font-size: 1.2em;
-  margin-top: 200px;
-}
 
-
-<<<<<<< HEAD
-=======
 .linha{
   border-bottom: 2px solid white;
   width: 20%;
   transition: all 3s;
 }
 .linha-active{
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.795);
   width: 100%;
  
+}
+
+
+/*Curriculo page*/
+#first-container{
+  background-color: rgba(255, 255, 255, 0.596);
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 5px;
+  
+  box-shadow: 12px 12px 10px rgb(31, 31, 31);
 }
 
 
 
 
 
->>>>>>> 1aa7ba108d2ffdc93824f0977fd2e0a9e06c8469
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1281px) {
     
 }
