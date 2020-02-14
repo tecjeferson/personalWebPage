@@ -1,12 +1,29 @@
 <%- include('../partials/header') -%>
-<div class="container" id="cloud">
-    <div class="row" id="cloud">
-        <div class="col text-center text-white " id="webdeveloper">
+<style>
+
+
+</style>
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-8 text-center text-white mt-5">
             <h1 class="display-4">JEFERSON ROCHA</h1>
-            <p class="linha"></p>
-            <h2 class="display-5">WEB DEVELOPER</h2>
+            <hr />
+            <h2 class="display-5">Software Developer</h2>
         </div>
     </div>
 
+
 </div>
+
+
+<script>
+    $(document).ready(function () {
+        //$('body').removeAttr("style")
+        $('body').css({
+            "background": `linear-gradient(
+      rgba(253, 193, 255, 0.219),#372a68
+    ), url('../img/891.jpg')`, "background-size": "cover"
+        });
+    })
+</script>
 <%- include('../partials/footer'); -%>
